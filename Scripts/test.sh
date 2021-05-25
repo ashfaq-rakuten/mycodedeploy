@@ -1,2 +1,3 @@
 #!/bin/bash
-echo test > /tmp/test.txt
+set -xe 
+echo test > //home/ubuntu/webapps/test.txt
