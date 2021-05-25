@@ -1,0 +1,8 @@
+version: 0.0
+os: linux
+files:
+  - source: ./index.html
+    destination: /home/ubuntu/webapps
+hooks:
+  BeforeInstall:
+    - location: Scripts/test.sh
