@@ -1,3 +1,3 @@
 #!/bin/bash
 set -xe 
-echo test > /home/ubuntu/webapps/test.txt
+echo test > /tmp/test.txt
