@@ -5,4 +5,4 @@ files:
     destination: /home/ubuntu/webapps
 hooks:
   ApplicationStop:
-    - location: Scripts/test.sh
+    - location: ./Scripts/test.sh
