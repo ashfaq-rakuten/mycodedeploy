@@ -4,5 +4,5 @@ files:
   - source: ./index.html
     destination: /home/ubuntu/webapps
 hooks:
-  BeforeInstall:
+  ApplicationStop:
     - location: Scripts/test.sh
